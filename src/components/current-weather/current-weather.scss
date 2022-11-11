@@ -7,3 +7,10 @@
     margin: 20px auto 0 auto;
     padding: 0 20px 20px 20px;
   }
+
+  .top,
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
