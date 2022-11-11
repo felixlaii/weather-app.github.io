@@ -9,6 +9,9 @@ import "./App.css";
 function App() {
   const [currentWeather, setCurrentWeather] = useState(null);
   const [forecast, setForecast] = useState(null);
+
+  const handleOnSearchChange = (searchData) => {
+    const [lat, lon] = searchData.value.split(" ");
   return (
     <div className="App">
       <header className="App-header">
