@@ -55,3 +55,11 @@
     height: 30px;
     justify-content: space-between;
   }
+
+  .daily-details-grid-item label:first-child {
+  color: #757575;
+}
+
+.daily-details-grid-item label:last-child {
+  color: #212121;
+}
