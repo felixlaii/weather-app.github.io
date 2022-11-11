@@ -41,3 +41,5 @@ const CurrentWeather = ({ data }) => {
     </div>
   );
 };
+
+export default CurrentWeather;
