@@ -14,3 +14,15 @@
     font-size: 14px;
     padding: 5px 20px;
   }
+
+  .icon-small {
+    width: 40px;
+  }
+  
+  .daily-item .day {
+    cursor: inherit;
+    color: #212121;
+    flex: 1 1;
+    font-weight: 600;
+    margin-left: 15px;
+  }
