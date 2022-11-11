@@ -7,6 +7,8 @@ import "./App.css";
 
 
 function App() {
+  const [currentWeather, setCurrentWeather] = useState(null);
+  const [forecast, setForecast] = useState(null);
   return (
     <div className="App">
       <header className="App-header">
