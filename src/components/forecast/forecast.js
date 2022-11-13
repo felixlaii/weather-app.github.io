@@ -23,6 +23,11 @@ const Forecast = ({ data }) => {
   const forecastDays = WEEK_DAYS.slice(dayInAWeek, WEEK_DAYS.length).concat(
     WEEK_DAYS.slice(0, dayInAWeek)
   );
+  const today = new Date();
+  const dd = String(today.getDate()).padStart(2, '0');
+  const mm = String(today.getMonth() + 1).padStart(2, '0');
+  const yyyy = today.getFullYear();
+  today = mm + '/' + dd + '/' + yyyy;
   return (
     <>
       <label className="title">Daily</label>
