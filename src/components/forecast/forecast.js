@@ -26,14 +26,7 @@ const Forecast = ({ data }) => {
   );
   
   const current = new Date();
-  // const dd = String(current.getDate()).padStart(2, '0');
-  // const mm = String(current.getMonth() + 1).padStart(2, '0');
-  // const yyyy = current.getFullYear();
-  // const currentDate = `${current.getDate()}/${current.getMonth()+1}/${current.getFullYear()}`;
 let currentDate = current.toString().slice(0, 15)
-  // const today = new Date();
-
-  // today = mm + '/' + dd + '/' + yyyy;
 
   return (
     <>
